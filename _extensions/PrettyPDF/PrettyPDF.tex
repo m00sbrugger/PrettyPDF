@@ -7,13 +7,26 @@
 \usepackage{fontspec}
 \usepackage{titlesec}
 
+%lite egna grejer till kemin
+\usepackage{mhchem}
+\usepackage{siunitx}
+\DeclareSIUnit{\amu}{amu}
+\DeclareSIUnit{\atomer}{atomer}
+\DeclareSIUnit{\molekyler}{molekyler}
+\DeclareSIUnit{\molekyl}{molekyl}
+\DeclareSIUnit{\atm}{atm}
+\DeclareSIUnit{\molar}{M}
+\DeclareSIUnit{\partiklar}{partiklar}
+
+
+
 %% Set page size with a wider right margin
 \geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm, bottom=20mm, right=50mm}
 
 %% Let's define some colours
-\definecolor{light}{HTML}{E6E6FA}
-\definecolor{highlight}{HTML}{800080}
-\definecolor{dark}{HTML}{330033}
+\definecolor{light}{HTML}{D2D2D2}
+\definecolor{highlight}{HTML}{148200}
+\definecolor{dark}{HTML}{005A00}
 
 %% Let's add the border on the right hand side 
 \AddToShipoutPicture{% 
@@ -25,7 +38,7 @@
      % logo
     \AtPageLowerLeft{% start the bar at the bottom right of the page
         \put(\LenToUnit{\dimexpr\paperwidth-2.25cm},27.2cm){% move it to the top right
-            \color{light}\includegraphics[width=1.5cm]{_extensions/nrennie/PrettyPDF/logo.png}
+            \color{light}\includegraphics[width=1.5cm]{_extensions/m00sbrugger/PrettyPDF/logo.png}
           }%
      }%
 }
@@ -58,20 +71,10 @@
 \makeatother
 
 %% Use some custom fonts
-\setsansfont{Ubuntu}[
-    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+\setsansfont{Arial}[
     Scale=0.9,
-    Extension = .ttf,
-    UprightFont=*-Regular,
-    BoldFont=*-Bold,
-    ItalicFont=*-Italic,
     ]
 
-\setmainfont{Ubuntu}[
-    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+\setmainfont{Arial}[
     Scale=0.9,
-    Extension = .ttf,
-    UprightFont=*-Regular,
-    BoldFont=*-Bold,
-    ItalicFont=*-Italic,
     ]
