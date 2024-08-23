@@ -1,0 +1,29 @@
+title: PrettyPDF
+author: Patrik Jönsson
+version: 0.0.1
+contributes:
+  project:
+    project:
+      type: book
+  formats: 
+    pdf:
+      include-in-header: 
+       - "PrettyPDF.tex"
+      include-before-body:
+       - "pagestyle.tex"
+      toc: false
+      code-block-bg: light
+      linkcolor: highlight
+      urlcolor: highlight
+      csl: apa7_sv.csl
+    revealjs:
+      scrollable: true
+      theme: slides.scss
+      lang: sv
+      lightbox: true
+      slide-number: true
+      transition: slide
+      menu: true
+      width: 1600
+      height: 900
+      logo: "logo.png"
