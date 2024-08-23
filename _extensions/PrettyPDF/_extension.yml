@@ -18,7 +18,7 @@ contributes:
       csl: apa7_sv.csl
     revealjs:
       scrollable: true
-      slide-level: true
+      slide-level: 3
       theme: slides.scss
       lang: sv
       lightbox: true
