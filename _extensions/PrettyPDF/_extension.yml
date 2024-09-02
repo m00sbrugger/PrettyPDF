@@ -1,6 +1,7 @@
 title: PrettyPDF
 author: Patrik Jönsson
 version: 0.0.1
+lang: sv
 contributes:
   project:
     project:
@@ -20,7 +21,6 @@ contributes:
       scrollable: true
       slide-level: 3
       theme: slides.scss
-      lang: sv
       lightbox: true
       slide-number: true
       transition: slide
