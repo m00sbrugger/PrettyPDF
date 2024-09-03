@@ -1,7 +1,6 @@
 title: PrettyPDF
 author: Patrik Jönsson
 version: 0.0.1
-lang: sv
 contributes:
   project:
     project:
@@ -17,6 +16,7 @@ contributes:
       linkcolor: highlight
       urlcolor: highlight
       csl: apa7_sv.csl
+      lang: sv
     revealjs:
       scrollable: true
       slide-level: 3
@@ -28,3 +28,4 @@ contributes:
       width: 1600
       height: 900
       logo: "logo.png"
+      lang: sv
