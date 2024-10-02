@@ -20,6 +20,7 @@ contributes:
     revealjs:
       scrollable: true
       slide-level: 3
+      html-math-method: mathjax
       theme: slides.scss
       lightbox: true
       slide-number: true
