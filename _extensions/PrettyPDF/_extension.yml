@@ -25,3 +25,5 @@ contributes:
       height: 900
       logo: "logo.png"
       lang: sv
+  filters:
+    - highlight-text.lua
